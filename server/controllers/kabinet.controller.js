@@ -3,8 +3,7 @@ import dotenv from 'dotenv';
 import userService from '../services/kabinet.services';
 
 dotenv.config();
-const secret = process.env.SECRET;
-const ACCESS_TOKEN_LIFE = process.env.ACCESS_TOKEN_LIFE;
+
 
 class KabinetController {
     static async registerEvent(req, res) {
