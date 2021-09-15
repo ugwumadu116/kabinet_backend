@@ -71,8 +71,7 @@ GitHub.sublime-settings
 # *.iml
 # *.ipr
 
-# CMake
-cmake-build-*/
+
 
 # Mongo Explorer plugin
 .idea/**/mongoSettings.xml
@@ -117,7 +116,7 @@ xcuserdata/
 *.xccheckout
 
 ## compatibility with Xcode 3 and earlier (ignoring not required starting Xcode 4)
-build/
+
 DerivedData/
 *.moved-aside
 *.pbxuser
@@ -136,7 +135,7 @@ DerivedData/
 **/nbproject/private/
 **/nbproject/Makefile-*.mk
 **/nbproject/Package-*.bash
-build/
+
 nbbuild/
 dist/
 nbdist/
@@ -180,7 +179,7 @@ bower_components
 .lock-wscript
 
 # Compiled binary addons (https://nodejs.org/api/addons.html)
-build/Release
+
 
 # Dependency directories
 node_modules/
@@ -336,6 +335,6 @@ dw_php_codehinting.config
 ### Custom
 node_modules
 .vscode
-build
+
 lcov.info
 .coveralls.yml
