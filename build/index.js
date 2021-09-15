@@ -26,7 +26,7 @@ app.use(_express.default.urlencoded({
   extended: true
 }));
 app.use((0, _cors.default)());
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3000;
 const prefix = '/api/v1';
 app.get('/', (req, res) => res.status(200).json({
   status: 200,
